@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+}
+
+#color1 {
+    background-color:#B0B5B3;
+}
+
+#color2 {
+    background-color:#DBDBDB;
+}
