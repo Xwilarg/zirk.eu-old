@@ -5,8 +5,115 @@
         <title>Sanara</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
     </head>
     <body>
-        <div id="menu"></div><script src="js/menu.js"></script>
+        <div id="content">
+            <div id="menu"></div><script src="js/menu.js"></script>
+            <h2>Index</h2>
+            <ul>
+                <li><a href="#about">About Sanara</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#commands">Commands</a></li>
+            </ul>
+            <span id="about">
+                <h2>About Sanara</h2>
+                <a href="https://discordapp.com/oauth2/authorize?client_id=329664361016721408&permissions=3196928&scope=bot"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fapi.zirk.eu%2Fbots.php%3Fname%3DSanara%26shield%3Dtrue"/></a><br/>
+                Sanara is a Discord bot that intend to be useful thought <a href="https://zirk.eu/sanara.html#commands">differents functionnalities</a>.<br/>
+                If you want to try her, you can <a href="https://discordapp.com/oauth2/authorize?client_id=329664361016721408&permissions=3196928&scope=bot">invite her on your server</a> or <a href="https://discordapp.com/invite/H6wMRYV">come on her official server</a>.<br/>
+                Sanara is also open-sourced and available on <a href="https://github.com/Xwilarg/Sanara">GitHub</a>.<br/>
+                <br/>
+                <a href="https://discordbots.org/bot/329664361016721408"><img src="https://discordbots.org/api/widget/329664361016721408.svg"/></a>
+            </span>
+			<br/><br/><hr><br/>
+			<span id="examples">
+                <h2>Examples</h2>
+				<a href="img/Sanara-1.png" data-lightbox="image-Sanara"><img src="img/Sanara-1.png" width="187.5" height="112.5" /></a>
+				<a href="img/Sanara-2.png" data-lightbox="image-Sanara"><img src="img/Sanara-2.png" width="187.5" height="112.5" /></a>
+				<a href="img/Sanara-3.png" data-lightbox="image-Sanara"><img src="img/Sanara-3.png" width="187.5" height="112.5" /></a>
+				<a href="img/Sanara-4.png" data-lightbox="image-Sanara"><img src="img/Sanara-4.png" width="187.5" height="112.5" /></a>
+				<a href="img/Sanara-5.png" data-lightbox="image-Sanara"><img src="img/Sanara-5.png" width="187.5" height="112.5" /></a>
+				<a href="img/Sanara-6.png" data-lightbox="image-Sanara"><img src="img/Sanara-6.png" width="187.5" height="112.5" /></a>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+				<br/>
+				<i>Click on an image to enlarge it.</i>
+			</span>
+            <br/><br/><hr><br/>
+            <span id="commands">
+                <h2>Commands</h2>
+                <h3>Anime/Manga Module</h3>
+                <strong>Anime [name]</strong>: Give informations about an anime<br/>
+                <strong>Manga [name]</strong>: Give informations about a manga<br/>
+                <br/>
+                <h3>Booru Module</h3>
+                <strong>Safebooru [tags]</strong>: Request a random image from Safebooru (only SFW images)<br/>
+                <strong>Konachan [tags]</strong>: Request a random image from Konachan (only wallpapers)<br/>
+                <strong>Gelbooru [tags]</strong>: Request a random image from Gelbooru (no particular rules)<br/>
+                <strong>Rule34 [tags]</strong>: Request a random image from Rule34 (mostly weird images)<br/>
+                <strong>E621 [tags]</strong>: Request a random image from E621 (mostly furries)<br/>
+                <strong>E926 [tags]</strong>: Request a random image from E926 (mostly furries, only SFW images)<br/>
+                <br/>
+                <h3>Communication Module</h3>
+                <strong>Infos [user]</strong>: Give informations about an user<br/>
+                <strong>BotInfos</strong>: Give informations about the bot<br/>
+				<strong>Quote [(optional) Message ID]</strong>: Quote a message<br/>
+                <br/>
+                <h3>Doujinshi Module</h3>
+                <strong>Doujinshi [tags]</strong>: Request a doujinshi from Nhentai<br/>
+                <br/>
+                <h3>Game Module</h3>
+                <strong>Play shiritori</strong> Play the shiritori game (you need to find a japanese word beginning by the ending of the previous one)<br/>
+                <strong>Play kancolle</strong>: Play the KanColle guess game (you need to identify shipgirls by an image)<br/>
+                <strong>Play booru</strong>: Play the booru game (you need to identify tag of Gelbooru images)<br/>
+                <strong>Play anime</strong>: Play the anime guess game (you need to identify an anime from an excerpt of it)<br/>
+                <strong>Score</strong>: Display your best scores compared to the other guilds<br/>
+				<strong>Cancel</strong>: Cancel the current game<br/>
+				Note: if you feel like you don't have enough time to answer, you can add 'easy' at the end of the command.<br/>
+                <br/>
+                <h3>Image Module</h3>
+                <strong>Color [RGB/Hexa/Name]</strong>: Display a color along with it RGB and Hexadecimal values<br/>
+                <br/>
+                <h3>Information Module</h3>
+                <strong>Help</strong>: Display the help<br/>
+				<strong>GDPR</strong>: Show the informations the bot stored about the guild<br/>
+				<strong>Status</strong>: Display available services<br/>
+				<strong>Invite</strong>: Get bot invite link<br/>
+                <br/>
+				<h3>Kantai Collection Module</h3>
+                <strong>Kancolle charac [shipgirl]</strong>: Give informations about a shipgirl from KanColle wikia<br/>
+                <strong>Kancolle drop [shipgirl]</strong>: Give informations about where you can find a shipgirl in Kancolle<br/>
+                <br/>
+                <h3>Linguistic Module</h3>
+                <strong>Japanese [word]</strong>: Translate a word in both japanese and english<br/>
+                <strong>Translation [language] [sentence/link to image]</strong>: Translate a sentence in the language given<br/>
+				<strong>Urban [word]</strong>: Define a word using Urban Dictionnary<br/>
+                <br/>
+                <h3>Radio Module</h3>
+				<strong>Radio launch</strong>: Make the bot join you in a vocal channel<br/>
+				<strong>Radio add [YouTube url/keywords]</strong>: Add a song to the playlist<br/>
+				<strong>Radio playlist</strong>: Display current playlist<br/>
+				<strong>Radio skip</strong>: Skip the song currently played<br/>
+				<strong>Radio stop</strong>: Stop the radio and leave the vocal channel<br/>
+                <br/>
+                <h3>Settings Module</h3>
+                <strong>Language [language]</strong>: Set the language of the bot for this guild<br/>
+                <strong>Prefix [(optional) prefix]</strong>: Set the prefix of the bot for this guild<br/>
+				<strong>Reload language</strong>: Reload translation language files<br/>
+				<strong>Leave [(optional) name]</strong>: Leave the guild given in parameter or the current one if none specified<br/>
+				<strong>Exit</strong>: Exit the bot<br/>
+				<strong>Enable [module name]</strong>: Enable a module<br/>
+				<strong>Disable [module name]</strong>: Disable a module<br/>
+				<strong>ResetDb [(optional) name]</strong>: Reset the database of the guild given in parameter or the current one if none specified<br/>
+                <br/>
+                <h3>Visual Novel Module</h3>
+                <strong>Vn [visual novel]</strong>: Give informations about a visual novel<br/>
+                <br/>
+                <h3>Xkcd Module</h3>
+                <strong>Xkcd [(optional) comic id]</strong>: Give a random xkcd comic<br/>
+                <br/>
+                <h3>YouTube Module</h3>
+                <strong>Youtube [keywords]</strong>: Give a YouTube video given some keywords<br/>
+            </span>
+        </div>
     </body>
 </html>
