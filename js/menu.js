@@ -1,5 +1,5 @@
 document.getElementById("menu").innerHTML =
-'<div class="sidenav">\
+'<div id="sidenav">\
     <a href="https://www.zirk.eu/index.html">Home</a>\
     <a href="https://www.zirk.eu/sanara.html">Sanara</a>\
     <a href="https://www.zirk.eu/boorusharp.html">BooruSharp</a>\
