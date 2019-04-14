@@ -1,5 +1,6 @@
 .row {
     display: flex;
+    position: relative;
 }
 
 #color1 {
@@ -8,4 +9,10 @@
 
 #color2 {
     background-color:#DBDBDB;
+}
+
+#github {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
