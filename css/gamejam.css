@@ -6,3 +6,101 @@
     right: 0;
     background-color: #3F403F;
 }
+
+#button {
+    border: none;
+    width: 480px;
+    height: 384px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#larryTheSheepsMuseumInvasion {
+    background:url(GameJam-LarryTheSheepsMuseumInvasion.png);
+    background-position: left;
+}
+
+#larryTheSheepsMuseumInvasion:hover {
+    background:url(GameJam-LarryTheSheepsMuseumInvasion.gif);
+    background-position: center;
+}
+
+#kibouNoImouto {
+    background:url(GameJam-KibouNoImouto.png);
+    background-position: left;
+}
+
+#kibouNoImouto:hover {
+    background:url(GameJam-KibouNoImouto.gif);
+    background-position: center;
+}
+
+#newSensations {
+    background:url(GameJam-NewSensations.jpg);
+    background-position: left;
+}
+
+#newSensations:hover {
+    background:url(GameJam-NewSensations.gif);
+    background-position: center;
+}
+
+#jovialJudgement {
+    background:url(GameJam-JovialJudgement.png);
+    background-position: center;
+}
+
+#jovialJudgement:hover {
+    background:url(GameJam-JovialJudgement.gif);
+    background-position: 20%;
+}
+
+#toFSDfSftPDRRoDwL {
+    background:url(GameJam-ToFSDfSftPDRRoDwL.png);
+    background-position: center;
+}
+
+#toFSDfSftPDRRoDwL:hover {
+    background:url(GameJam-ToFSDfSftPDRRoDwL.gif);
+    background-position: center;
+}
+
+#powerDown {
+    background:url(GameJam-PowerDown.jpg);
+    background-position: center;
+}
+
+#powerDown:hover {
+    background:url(GameJam-PowerDown.gif);
+    background-position: right;
+}
+
+#hadipoRun {
+    background:url(GameJam-HadipoRun.png);
+    background-position: center;
+}
+
+#hadipoRun:hover {
+    background:url(GameJam-HadipoRun.gif);
+    background-position: center;
+}
+
+#talesOfLayinskia {
+    background:url(GameJam-HadipoRun.png);
+    background-position: center;
+}
+
+#talesOfLayinskia:hover {
+    background:url(GameJam-HadipoRun.png);
+    background-position: right;
+}
+
+#vespias {
+    background:url(GameJam-Vespias.jpg);
+    background-position: center;
+}
+
+#vespias:hover {
+    background:url(GameJam-Vespias.gif);
+    background-position: center;
+}
