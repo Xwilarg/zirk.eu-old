@@ -7,100 +7,152 @@
     background-color: #3F403F;
 }
 
-#button {
+#row {
+    display: flex;
+}
+
+img {
     border: none;
     width: 480px;
     height: 384px;
+}
+
+#larryTheSheepsMuseumInvasion {
+    background:url(../img/GameJam-LarryTheSheepsMuseumInvasion.png);
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#larryTheSheepsMuseumInvasion {
-    background:url(GameJam-LarryTheSheepsMuseumInvasion.png);
-    background-position: left;
-}
-
 #larryTheSheepsMuseumInvasion:hover {
-    background:url(GameJam-LarryTheSheepsMuseumInvasion.gif);
+    background:url(../img/GameJam-LarryTheSheepsMuseumInvasion.gif);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #kibouNoImouto {
-    background:url(GameJam-KibouNoImouto.png);
+    background:url(../img/GameJam-KibouNoImouto.png);
     background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #kibouNoImouto:hover {
-    background:url(GameJam-KibouNoImouto.gif);
+    background:url(../img/GameJam-KibouNoImouto.gif);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #newSensations {
-    background:url(GameJam-NewSensations.jpg);
+    background:url(../img/GameJam-NewSensations.jpg);
     background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #newSensations:hover {
-    background:url(GameJam-NewSensations.gif);
+    background:url(../img/GameJam-NewSensations.gif);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #jovialJudgement {
-    background:url(GameJam-JovialJudgement.png);
+    background:url(../img/GameJam-JovialJudgement.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #jovialJudgement:hover {
-    background:url(GameJam-JovialJudgement.gif);
+    background:url(../img/GameJam-JovialJudgement.gif);
     background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #toFSDfSftPDRRoDwL {
-    background:url(GameJam-ToFSDfSftPDRRoDwL.png);
+    background:url(../img/GameJam-ToFSDfSftPDRRoDwL.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #toFSDfSftPDRRoDwL:hover {
-    background:url(GameJam-ToFSDfSftPDRRoDwL.gif);
+    background:url(../img/GameJam-ToFSDfSftPDRRoDwL.gif);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#manchaud {
+    background:url(../img/GameJam-Manchaud.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#manchaud:hover {
+    background:url(../img/GameJam-Manchaud.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #powerDown {
-    background:url(GameJam-PowerDown.jpg);
+    background:url(../img/GameJam-PowerDown.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #powerDown:hover {
-    background:url(GameJam-PowerDown.gif);
+    background:url(../img/GameJam-PowerDown.gif);
     background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hadipoRun {
-    background:url(GameJam-HadipoRun.png);
+    background:url(../img/GameJam-HadipoRun.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hadipoRun:hover {
-    background:url(GameJam-HadipoRun.gif);
+    background:url(../img/GameJam-HadipoRun.gif);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #talesOfLayinskia {
-    background:url(GameJam-HadipoRun.png);
+    background:url(../img/GameJam-TalesOfLayinskia.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #talesOfLayinskia:hover {
-    background:url(GameJam-HadipoRun.png);
+    background:url(../img/GameJam-TalesOfLayinskia.gih);
     background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #vespias {
-    background:url(GameJam-Vespias.jpg);
+    background:url(../img/GameJam-Vespias.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #vespias:hover {
-    background:url(GameJam-Vespias.gif);
+    background:url(../img/GameJam-Vespias.gif);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
