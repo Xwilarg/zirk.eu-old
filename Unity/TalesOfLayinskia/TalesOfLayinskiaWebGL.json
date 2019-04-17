@@ -1,0 +1,13 @@
+{
+"companyName": "Caviar de Canard",
+"productName": "Tales of Layinskia",
+"dataUrl": "TalesOfLayinskiaWebGL.data.unityweb",
+"asmCodeUrl": "TalesOfLayinskiaWebGL.asm.code.unityweb",
+"asmMemoryUrl": "TalesOfLayinskiaWebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "TalesOfLayinskiaWebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
