@@ -1,4 +1,4 @@
-function updateDescription(name, jamName, jamStart, jamDuration, githubLink, projectLink, postModifications, teamSize) {
+function updateDescription(name, jamName, jamTheme, jamStart, jamDuration, githubLink, projectLink, postModifications, teamSize) {
     document.getElementById('sidenavGamejam').innerHTML = '<h3>' + name + '</h3>'
     + '<br/><br/>' + jamName + '\nTheme: ' + jamTheme + '<br/><br/>'
     + jamStart + ' (' + jamDuration + ')'
