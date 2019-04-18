@@ -1,11 +1,11 @@
 document.getElementById("menu").innerHTML =
 '<div id="sidenav">\
-    <a href="https://www.zirk.eu/index.html">Home</a>\
-    <a href="https://www.zirk.eu/sanara.html">Sanara</a>\
-    <a href="https://www.zirk.eu/boorusharp.html">BooruSharp</a>\
-    <a href="https://www.zirk.eu/nhentaidownloader.html">NHentai Downloader</a>\
-    <a href="https://www.zirk.eu/horizon.html">Horizon</a>\
-    <a href="https://www.zirk.eu/commitmessageanalyzer.html">Commit Message Analyzer</a>\
-    <a href="https://www.zirk.eu/lania.html">Lania</a>\
-    <a href="https://www.zirk.eu/gamejam.html">Game Jam</a>\
+    <a href="index.html">Home</a>\
+    <a href="sanara.html">Sanara</a>\
+    <a href="boorusharp.html">BooruSharp</a>\
+    <a href="nhentaidownloader.html">NHentai Downloader</a>\
+    <a href="horizon.html">Horizon</a>\
+    <a href="commitmessageanalyzer.html">Commit Message Analyzer</a>\
+    <a href="lania.html">Lania</a>\
+    <a href="gamejam.html">Game Jam</a>\
 </div>'
