@@ -13,6 +13,7 @@ xmlhttp.onreadystatechange = function() {
         google.charts.setOnLoadCallback(drawServersChart);
         google.charts.setOnLoadCallback(drawGames);
         google.charts.setOnLoadCallback(drawBoorus);
+        google.charts.setOnLoadCallback(drawScores);
     }
 }
 xmlhttp.open("GET", "https://api.zirk.eu/bots.php?name=Sanara", true);
@@ -167,6 +168,78 @@ function drawServersChart() {
             isStacked: true,
     };
     let chart = new google.visualization.ColumnChart(document.getElementById('serverschart'));
+    chart.draw(data, options);
+}
+
+function drawScores() {
+    let datas = response.message.bestScores;
+
+    let colors = [
+        "#800000", "#808000", "#469990",
+        "#ffe119", "#000075", "#f032e6",
+        "#aaffc3", "#ffd8b1", "#e6beff",
+        "#42d4f4", "#f58231", "#911eb4"
+    ];
+    let names = [
+        datas[0]["shiritori"][0], datas[1]["shiritori"][0], datas[2]["shiritori"][0],
+        datas[0]["anime"][0], datas[1]["anime"][0], datas[2]["anime"][0],
+        datas[0]["booru"][0], datas[1]["booru"][0], datas[2]["booru"][0],
+        datas[0]["kancolle"][0], datas[1]["kancolle"][0], datas[2]["kancolle"][0]
+    ];
+    let nameToColor = {};
+    let index = 0;
+    names.forEach(function(name) {
+        if (nameToColor[name] == undefined)
+            nameToColor[name] = colors[index];
+        index++;
+    });
+
+    let data = google.visualization.arrayToDataTable([
+        ["Server's name", 'Score', { role: 'style' }],
+        [names[0], parseInt(datas[0]["shiritori"][1]), nameToColor[names[0]]],
+        [names[1], parseInt(datas[1]["shiritori"][1]), nameToColor[names[1]]],
+        [names[2], parseInt(datas[2]["shiritori"][1]), nameToColor[names[2]]],
+    ]);
+    let options = {
+        title: "Best scores (Shiritori)",
+    };
+    let chart = new google.visualization.ColumnChart(document.getElementById('scoreschart1'));
+    chart.draw(data, options);
+
+    data = google.visualization.arrayToDataTable([
+        ["Server's name", 'Score', { role: 'style' }],
+        [names[3], parseInt(datas[0]["anime"][1]), nameToColor[names[3]]],
+        [names[4], parseInt(datas[1]["anime"][1]), nameToColor[names[4]]],
+        [names[5], parseInt(datas[2]["anime"][1]), nameToColor[names[5]]],
+    ]);
+    options = {
+        title: "Best scores (Anime guess game)",
+    };
+    chart = new google.visualization.ColumnChart(document.getElementById('scoreschart2'));
+    chart.draw(data, options);
+
+    data = google.visualization.arrayToDataTable([
+        ["Server's name", 'Score', { role: 'style' }],
+        [names[6], parseInt(datas[0]["booru"][1]), nameToColor[names[6]]],
+        [names[7], parseInt(datas[1]["booru"][1]), nameToColor[names[7]]],
+        [names[8], parseInt(datas[2]["booru"][1]), nameToColor[names[8]]],
+    ]);
+    options = {
+        title: "Best scores (Booru guess game)",
+    };
+    chart = new google.visualization.ColumnChart(document.getElementById('scoreschart3'));
+    chart.draw(data, options);
+
+    data = google.visualization.arrayToDataTable([
+        ["Server's name", 'Score', { role: 'style' }],
+        [names[9], parseInt(datas[0]["kancolle"][1]), nameToColor[names[9]]],
+        [names[10], parseInt(datas[1]["kancolle"][1]), nameToColor[names[10]]],
+        [names[11], parseInt(datas[2]["kancolle"][1]), nameToColor[names[11]]],
+    ]);
+    options = {
+        title: "Best scores (KanColle guess game)",
+    };
+    chart = new google.visualization.ColumnChart(document.getElementById('scoreschart4'));
     chart.draw(data, options);
 }
 
