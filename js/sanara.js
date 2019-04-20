@@ -178,13 +178,15 @@ function drawScores() {
         "#800000", "#808000", "#469990",
         "#ffe119", "#000075", "#f032e6",
         "#aaffc3", "#ffd8b1", "#e6beff",
-        "#42d4f4", "#f58231", "#911eb4"
+        "#42d4f4", "#f58231", "#911eb4",
+        "#a9a9a9", "#000000", "#e6194B"
     ];
     let names = [
         datas[0]["shiritori"][0], datas[1]["shiritori"][0], datas[2]["shiritori"][0],
         datas[0]["anime"][0], datas[1]["anime"][0], datas[2]["anime"][0],
         datas[0]["booru"][0], datas[1]["booru"][0], datas[2]["booru"][0],
-        datas[0]["kancolle"][0], datas[1]["kancolle"][0], datas[2]["kancolle"][0]
+        datas[0]["kancolle"][0], datas[1]["kancolle"][0], datas[2]["kancolle"][0],
+        datas[0]["azurlane"][0], datas[1]["azurlane"][0], datas[2]["azurlane"][0]
     ];
     let nameToColor = {};
     let index = 0;
@@ -240,6 +242,18 @@ function drawScores() {
         title: "Best scores (KanColle guess game)",
     };
     chart = new google.visualization.ColumnChart(document.getElementById('scoreschart4'));
+    chart.draw(data, options);
+
+    data = google.visualization.arrayToDataTable([
+        ["Server's name", 'Score', { role: 'style' }],
+        [names[12], parseInt(datas[0]["azurlane"][1]), nameToColor[names[12]]],
+        [names[13], parseInt(datas[1]["azurlane"][1]), nameToColor[names[13]]],
+        [names[14], parseInt(datas[2]["azurlane"][1]), nameToColor[names[14]]],
+    ]);
+    options = {
+        title: "Best scores (Azur Lane guess game)",
+    };
+    chart = new google.visualization.ColumnChart(document.getElementById('scoreschart5'));
     chart.draw(data, options);
 }
 
