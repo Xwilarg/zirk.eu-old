@@ -5,7 +5,9 @@
         <title>Sanara</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/projects.css">
+		<link rel="stylesheet" type="text/css" href="css/table.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </head>
     <body>
         <div id="menu"></div><script src="js/menu.js"></script>
@@ -15,6 +17,7 @@
                 <li><a href="#about">About Sanara</a></li>
                 <li><a href="#examples">Examples</a></li>
                 <li><a href="#commands">Commands</a></li>
+                <li><a href="#stats">Stats</a></li>
             </ul>
             <span id="about">
                 <h2>About Sanara</h2>
@@ -112,6 +115,27 @@
                 <h3>YouTube Module</h3>
                 <strong>Youtube [keywords]</strong>: Give a YouTube video given some keywords<br/>
             </span>
+            <br/><br/><hr><br/>
+            <span id="stats">
+			<h2>Stats</h2>
+            <table>
+                  <tr>
+                    <td><div id="commandServsChart" style="width: 700px; height: 400px;"></div></td>
+                    <td><div id="useschart" style="width: 700px; height: 400px;"></div></td>
+                  </tr>
+                <tr>
+                    <td><div id="moduleschart" style="width: 700px; height: 400px;"></div></td>
+                    <td><div id="errorsChart" style="width: 700px; height: 400px;"></div></td>
+                  </tr>
+                <tr>
+                    <td><div id="serverschart" style="width: 700px; height: 400px;"></div></td>
+                  </tr>
+                <tr>
+                    <td><div id="gameschart" style="width: 700px; height: 400px;"></div></td>
+                    <td><div id="booruChart" style="width: 700px; height: 400px;"></div></td>
+                  </tr>
+            </table>
+            <script src="js/sanara.js"></script>
         </div>
     </body>
 </html>
