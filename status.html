@@ -3,8 +3,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121641017-1"></script><script src="js/googleAnalytics.js"></script>
     <head>
         <title>Status</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="css/table.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </head>
     <body>
         <div id="menu"></div><script src="js/menu.js"></script>
@@ -19,6 +21,13 @@
             <br/><br/>
             Horizon:<br/>
             <a href="https://travis-ci.org/Xwilarg/Horizon/"><img src="https://travis-ci.org/Xwilarg/Horizon.svg?branch=master"/></a>
+            <br/><br/>
+            <table>
+                <tr>
+                    <td><div id="messagesChart" style="width: 700px; height: 400px;"></div></td>
+                </tr>
+            </table>
         </div>
     </body>
+    <script src="js/status.js"></script>
 </html>
