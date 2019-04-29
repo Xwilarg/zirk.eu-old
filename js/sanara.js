@@ -182,11 +182,11 @@ function drawScores() {
         "#a9a9a9", "#000000", "#e6194B"
     ];
     let names = [
-        datas[0]["shiritori"][0], datas[1]["shiritori"][0], datas[2]["shiritori"][0],
-        datas[0]["anime"][0], datas[1]["anime"][0], datas[2]["anime"][0],
-        datas[0]["booru"][0], datas[1]["booru"][0], datas[2]["booru"][0],
-        datas[0]["kancolle"][0], datas[1]["kancolle"][0], datas[2]["kancolle"][0],
-        datas[0]["azurlane"][0], datas[1]["azurlane"][0], datas[2]["azurlane"][0]
+        datas["shiritori"][0], datas["shiritori"][2], datas["shiritori"][4],
+        datas["anime"][0], datas["anime"][2], datas["anime"][4],
+        datas["booru"][0], datas["booru"][2], datas["booru"][4],
+        datas["kancolle"][0], datas["kancolle"][2], datas["kancolle"][4],
+        datas["azurlane"][0], datas["azurlane"][2], datas["azurlane"][4]
     ];
     let nameToColor = {};
     let index = 0;
@@ -198,9 +198,9 @@ function drawScores() {
 
     let data = google.visualization.arrayToDataTable([
         ["Server's name", 'Score', { role: 'style' }],
-        [names[0], parseInt(datas[0]["shiritori"][1]), nameToColor[names[0]]],
-        [names[1], parseInt(datas[1]["shiritori"][1]), nameToColor[names[1]]],
-        [names[2], parseInt(datas[2]["shiritori"][1]), nameToColor[names[2]]],
+        [names[0], parseInt(datas["shiritori"][1]), nameToColor[names[0]]],
+        [names[1], parseInt(datas["shiritori"][3]), nameToColor[names[1]]],
+        [names[2], parseInt(datas["shiritori"][5]), nameToColor[names[2]]],
     ]);
     let options = {
         title: "Best scores (Shiritori)",
@@ -210,9 +210,9 @@ function drawScores() {
 
     data = google.visualization.arrayToDataTable([
         ["Server's name", 'Score', { role: 'style' }],
-        [names[3], parseInt(datas[0]["anime"][1]), nameToColor[names[3]]],
-        [names[4], parseInt(datas[1]["anime"][1]), nameToColor[names[4]]],
-        [names[5], parseInt(datas[2]["anime"][1]), nameToColor[names[5]]],
+        [names[3], parseInt(datas["anime"][1]), nameToColor[names[3]]],
+        [names[4], parseInt(datas["anime"][3]), nameToColor[names[4]]],
+        [names[5], parseInt(datas["anime"][5]), nameToColor[names[5]]],
     ]);
     options = {
         title: "Best scores (Anime guess game)",
@@ -222,9 +222,9 @@ function drawScores() {
 
     data = google.visualization.arrayToDataTable([
         ["Server's name", 'Score', { role: 'style' }],
-        [names[6], parseInt(datas[0]["booru"][1]), nameToColor[names[6]]],
-        [names[7], parseInt(datas[1]["booru"][1]), nameToColor[names[7]]],
-        [names[8], parseInt(datas[2]["booru"][1]), nameToColor[names[8]]],
+        [names[6], parseInt(datas["booru"][1]), nameToColor[names[6]]],
+        [names[7], parseInt(datas["booru"][3]), nameToColor[names[7]]],
+        [names[8], parseInt(datas["booru"][5]), nameToColor[names[8]]],
     ]);
     options = {
         title: "Best scores (Booru guess game)",
@@ -234,9 +234,9 @@ function drawScores() {
 
     data = google.visualization.arrayToDataTable([
         ["Server's name", 'Score', { role: 'style' }],
-        [names[9], parseInt(datas[0]["kancolle"][1]), nameToColor[names[9]]],
-        [names[10], parseInt(datas[1]["kancolle"][1]), nameToColor[names[10]]],
-        [names[11], parseInt(datas[2]["kancolle"][1]), nameToColor[names[11]]],
+        [names[9], parseInt(datas["kancolle"][1]), nameToColor[names[9]]],
+        [names[10], parseInt(datas["kancolle"][3]), nameToColor[names[10]]],
+        [names[11], parseInt(datas["kancolle"][5]), nameToColor[names[11]]],
     ]);
     options = {
         title: "Best scores (KanColle guess game)",
@@ -246,9 +246,9 @@ function drawScores() {
 
     data = google.visualization.arrayToDataTable([
         ["Server's name", 'Score', { role: 'style' }],
-        [names[12], parseInt(datas[0]["azurlane"][1]), nameToColor[names[12]]],
-        [names[13], parseInt(datas[1]["azurlane"][1]), nameToColor[names[13]]],
-        [names[14], parseInt(datas[2]["azurlane"][1]), nameToColor[names[14]]],
+        [names[12], parseInt(datas["azurlane"][1]), nameToColor[names[12]]],
+        [names[13], parseInt(datas["azurlane"][3]), nameToColor[names[13]]],
+        [names[14], parseInt(datas["azurlane"][5]), nameToColor[names[14]]],
     ]);
     options = {
         title: "Best scores (Azur Lane guess game)",
