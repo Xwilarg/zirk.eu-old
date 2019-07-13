@@ -1,18 +1,10 @@
-.row {
-    display: flex;
-    position: relative;
+#intro {
+    text-align: center;
+    margin: 100px 400px;
+    background-color: #c0c0c0;
+    padding: 25px;
 }
 
-#color1 {
-    background-color:#B0B5B3;
-}
-
-#color2 {
-    background-color:#DBDBDB;
-}
-
-#github {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+a {
+    color: inherit;
 }
