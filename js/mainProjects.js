@@ -1,7 +1,8 @@
 let currId = 0;
 let projects = [
-    ["Title", "Description"],
-    ["Title 2", "Description 2"]
+    ['<a href="https://sanara.zirk.eu">Sanara</a>', "A multipurpose Discord bot providing games, images and more"],
+    ['<a href="https://zirk.eu/boorusharp.html">BooruSharp</a>', "A C# library to browse Booru websites (Gelbooru, Konachan, etc...) easily"],
+    ['<a href="https://chrome.google.com/webstore/detail/nhentai-downloader/dcpdhacgmnhbfaebkcagkakpcighmeol">NHentaiDownloader</a>', "A chrome extension to download doujinshi from NHentai"]
 ];
 
 function nextProject() {
