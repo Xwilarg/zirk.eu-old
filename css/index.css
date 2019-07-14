@@ -21,6 +21,7 @@ a {
     margin-right: auto;
     width: 500px;
     height: 400px;
+    position: relative;
 }
 
 .slideControl {
@@ -46,5 +47,5 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     position: absolute;
-    bottom: -225px;
+    bottom: 0;
 }
