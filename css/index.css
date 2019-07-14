@@ -22,6 +22,7 @@ a {
     width: 550px;
     height: 550px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .slideControl {
@@ -62,4 +63,40 @@ a {
 #slideBackground {
     position: absolute;
     z-index: -1;
+}
+
+#slideGithub {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 75%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: #444;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #EEE;
+}
+
+tr:nth-child(even) {
+    background-color: #DDD;
 }
