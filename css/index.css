@@ -1,7 +1,12 @@
 #intro {
     text-align: center;
-    margin: 50px 400px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #c0c0c0;
+    width: 60%;
     padding: 25px;
 }
 
