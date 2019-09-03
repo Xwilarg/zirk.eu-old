@@ -6,10 +6,27 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #c0c0c0;
-    width: 50%;
+    width: 60%;
     padding: 25px;
     border-radius: 10px;
     border: 1px solid #b3b3b3;
+    line-height: 22px;
+}
+
+#introGithub {
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 5px;
+}
+
+bold {
+    font-weight: bold;
+}
+
+.category {
+    background-color: #ababab;
+    padding: 5px;
+    border-radius: 25px;
 }
 
 a {
