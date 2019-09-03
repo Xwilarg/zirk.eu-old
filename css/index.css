@@ -1,13 +1,15 @@
 #intro {
     text-align: center;
     display: block;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 75px;
     margin-left: auto;
     margin-right: auto;
     background-color: #c0c0c0;
-    width: 60%;
+    width: 50%;
     padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #b3b3b3;
 }
 
 a {
