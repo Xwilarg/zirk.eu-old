@@ -1,8 +1,8 @@
 let currId = 0;
 let projects = [
     ['<a href="https://sanara.zirk.eu">Sanara</a>', "A multipurpose Discord bot providing games, images and more", "img/Slideshow-Sanara.gif", "https://github.com/Xwilarg/Sanara"],
-    ['<a href="https://zirk.eu/boorusharp.html">BooruSharp</a>', "A C# library to browse Booru websites (Gelbooru, Konachan, etc...) easily", "img/Slideshow-BooruSharp.gif", "https://github.com/Xwilarg/BooruSharp"],
-    ['<a href="https://chrome.google.com/webstore/detail/nhentai-downloader/dcpdhacgmnhbfaebkcagkakpcighmeol">NHentai Downloader</a>', "A chrome extension to download doujinshi from NHentai", "img/Slideshow-NHentaiDownloader.gif", "https://github.com/Xwilarg/NHentaiDownloader"]
+    ['<a href="https://github.com/Xwilarg/BooruSharp">BooruSharp</a>', "A C# library to browse Booru websites (Gelbooru, Konachan, etc...) easily", "img/Slideshow-BooruSharp.gif", "https://github.com/Xwilarg/BooruSharp"],
+    ['<a href="http://nhentaidownloader.zirk.eu">NHentai Downloader</a>', "A chrome extension to download doujinshi from NHentai", "img/Slideshow-NHentaiDownloader.gif", "https://github.com/Xwilarg/NHentaiDownloader"]
 ];
 
 function nextProject() {

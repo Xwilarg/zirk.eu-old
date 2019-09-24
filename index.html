@@ -20,8 +20,7 @@
                     I'm a 4th year student at the french school <a href="https://international.epitech.eu/">EPITECH</a>.<br/>
                     Currently at the <a href="http://www.kmu.ac.kr/uni/eng/main.jsp">Keimyung University</a> (Daigu, South Korea) as a part of my studies.<br/><br/>
                     Mainly specialized in software/video game development, I also do some web sometimes.<br/><br/>
-                    If you want to learn more about me, you can click the buttons right below.<br/>
-                    You can also scroll down some more to see the projects I'm working on.
+                    If you want to learn more about me, you can click the on buttons right below.
                 </span>
                 <span id="introCompetences" hidden>
                     <h4>Professional Competencies</h4>
@@ -58,19 +57,20 @@
                 <br/><br/><hr/><br/>
                 <button onclick="loadAboutMe()">About me</button>
                 <button onclick="loadCompetences()">Professional Competencies</button>
-                <button onclick="loadHobbies()">Career</button>
+                <button onclick="loadHobbies()">Hobbies</button>
+                <br/><br/><hr/><br/>
+                Popular projects I'm working on:<br/><br/>
+                <div id="slideshow">
+                    <button class="slideControl" id="previous" onclick="previousProject()">&#10094;</button>
+                    <button class="slideControl" id="next" onclick="nextProject()">&#10095;</button>
+                    <img id="slideBackground" src="" />
+                    <a id="slideGithub" href="" target="_blank"><img src="img/GitHub.png" /></a>
+                    <p id="slideTitle"></p>
+                    <span id="slideDescriptionContainer">
+                        <p id="slideDescription"></p>
+                    </span>
+                </div>
             </div>
-        </div>
-        <p id="center">Some popular projects I'm working on:</p>
-        <div id="slideshow">
-            <button class="slideControl" id="previous" onclick="previousProject()">&#10094;</button>
-            <button class="slideControl" id="next" onclick="nextProject()">&#10095;</button>
-            <img id="slideBackground" src="" />
-            <a id="slideGithub" href="" target="_blank"><img src="img/GitHub.png" /></a>
-            <p id="slideTitle"></p>
-            <span id="slideDescriptionContainer">
-                <p id="slideDescription"></p>
-            </span>
         </div>
         <p id="center">
             But overall, here is the full list of projects I made

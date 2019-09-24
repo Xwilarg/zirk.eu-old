@@ -69,19 +69,21 @@ a {
     margin-top: calc(250px - 25px);
     height: 50px;
     border: none;
+    z-index: 2;
 }
 
 #previous {
-    margin-left: 2px;
+    margin-left: -275px;
 }
 
 #next {
-    margin-left: calc(550px - 20px);
+    margin-left: calc(275px - 30px);
 }
 
 #slideTitle {
     text-align: center;
     color: #ccc;
+    z-index: 2;
 }
 
 #slideDescriptionContainer {
@@ -93,6 +95,8 @@ a {
     background-color: #777777dd;
     width: 530px;
     margin-bottom: 0;
+    margin-left: -275px;
+    z-index: 2;
 }
 
 #slideDescription {
@@ -101,7 +105,8 @@ a {
 
 #slideBackground {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
+    margin-left: -275px;
 }
 
 #slideGithub {
@@ -109,7 +114,7 @@ a {
     bottom: 0;
     right: 0;
     margin-right: 5px;
-    z-index: 1;
+    z-index: 3;
 }
 
 table {
