@@ -7,46 +7,59 @@
         <meta property="og:description" content="Software Developer"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
+        <script src="js/index.js"></script>
     </head>
     <body>
         <div id="intro">
             <h2>Zirk <a id="introGithub" href="https://github.com/Xwilarg/" target="_blank"><img src="img/GitHub.png" /></a></h2>
             <h3>Software developer</h3>
-            <hr/>
-            <p>
-                <h4>Who am I?</h4>
-                4th student at the french school <a href="https://international.epitech.eu/">EPITECH</a>.<br/>
-                Currently at the <a href="http://www.kmu.ac.kr/uni/eng/main.jsp">Keimyung University</a> (Daigu, South Korea) as a part of my studies.
-            </p>
-            <hr/>
-            <p>
-                <h4>My professional competencies</h4>
-                <bold>Languages:</bold>
-                <span class="category">C#</span>
-                <span class="category">Javascript</span>
-                <span class="category">C++</span>
-                <span class="category">Python</span>
-                <span class="category">PHP</span>
-                <span class="category">C</span>
-                <span class="category">Golang</span>
-                <br/><br/>
-                <bold>Engines/Libraries:</bold>
-                <span class="category">Unity 3D</span>
-                <span class="category">Unreal Engine 4</span>
-                <span class="category">Qt</span>
-                <span class="category">SFML</span>
-                <br/><br/>
-                <bold>Others:</bold>
-                <span class="category">Git</span>
-                <span class="category">GitHub</span>
-            </p>
-            <hr/>
-            <p>
-                <h4>My hobbies</h4>
-                <bold>Favorites Video Games:</bold> <a href="https://backpack.tf/profiles/76561198039345808">Team Fortress 2</a>, <a href="https://files.zirk.eu/zirk.eu/KanColle.png">Kantai Collection</a> and <a href="https://osu.ppy.sh/users/3830408">osu!</a>.<br/>
-                <bold>Favorites Books:</bold> <a href="https://myanimelist.net/manga/102667/Slime_Taoshite_300-nen_Shiranai_Uchi_ni_Level_Max_ni_Nattemashita">Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita</a>, <a href="https://myanimelist.net/manga/87610/Tensei_shitara_Slime_Datta_Ken">Tensei shitara Slime Datta Ken</a> and <a href="https://myanimelist.net/manga/48399/No_Game_No_Life">No Game No Life</a>.<br/>
-                <bold>Favorites Compositors:</bold> <a href="https://www.youtube.com/channel/UCGmO0S4S-AunjRdmxA6TQYg">DECO*27</a> and <a href="https://www.youtube.com/user/pinocchiopchannel">ピノキオピ</a>.
-            </p>
+            <hr/><br/>
+            <div>
+                <span id="introPresentation">
+                    <h4>About me</h4>
+                    I'm a 4th year student at the french school <a href="https://international.epitech.eu/">EPITECH</a>.<br/>
+                    Currently at the <a href="http://www.kmu.ac.kr/uni/eng/main.jsp">Keimyung University</a> (Daigu, South Korea) as a part of my studies.<br/><br/>
+                    Mainly specialized in software/video game development, I also do some web sometimes.<br/><br/>
+                    If you want to learn more about me, you can click the buttons right below.<br/>
+                    You can also scroll down some more to see the projects I'm working on.
+                </span>
+                <span id="introCompetences" hidden>
+                    <h4>Professional Competencies</h4>
+                    <bold>Programming Languages:</bold>
+                    <span class="category">C#</span>
+                    <span class="category">Javascript</span>
+                    <span class="category">C++</span>
+                    <span class="category">Python</span>
+                    <span class="category">PHP</span>
+                    <span class="category">C</span>
+                    <span class="category">Golang</span>
+                    <br/><br/>
+                    <bold>Engines/Libraries:</bold>
+                    <span class="category">Unity 3D</span>
+                    <span class="category">Unreal Engine 4</span>
+                    <span class="category">Qt</span>
+                    <span class="category">SFML</span>
+                    <br/><br/>
+                    <bold>Others:</bold>
+                    <span class="category">Git</span>
+                    <span class="category">GitHub</span>
+                    <span class="category">RethinkDb</span>
+                    <br/><br/>
+                    <bold>Languages:</bold><br/>
+                    French: Native<br/>
+                    English: Fluent<br/>
+                    Japanese: Basics
+                </span>
+                <span id="introHobbies" hidden>
+                    <bold>Favorites Video Games:</bold> <a href="https://backpack.tf/profiles/76561198039345808">Team Fortress 2</a>, <a href="https://files.zirk.eu/zirk.eu/KanColle.png">Kantai Collection</a> and <a href="https://osu.ppy.sh/users/3830408">osu!</a>.<br/>
+                    <bold>Favorites Books:</bold> <a href="https://myanimelist.net/manga/102667/Slime_Taoshite_300-nen_Shiranai_Uchi_ni_Level_Max_ni_Nattemashita">Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita</a>, <a href="https://myanimelist.net/manga/87610/Tensei_shitara_Slime_Datta_Ken">Tensei shitara Slime Datta Ken</a> and <a href="https://myanimelist.net/manga/48399/No_Game_No_Life">No Game No Life</a>.<br/>
+                    <bold>Favorites Compositors:</bold> <a href="https://www.youtube.com/channel/UCGmO0S4S-AunjRdmxA6TQYg">DECO*27</a> and <a href="https://www.youtube.com/user/pinocchiopchannel">ピノキオピ</a>.
+                </span>
+                <br/><br/><hr/><br/>
+                <button onclick="loadAboutMe()">About me</button>
+                <button onclick="loadCompetences()">Professional Competencies</button>
+                <button onclick="loadHobbies()">Career</button>
+            </div>
         </div>
         <p id="center">Some popular projects I'm working on:</p>
         <div id="slideshow">

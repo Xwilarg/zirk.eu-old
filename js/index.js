@@ -1,9 +1,20 @@
-function trigger(idName) {
-    if (document.getElementById("explanation" + idName).hidden) {
-        document.getElementById("explanation" + idName).hidden = false;
-        document.getElementById("right" + idName).innerHTML = "▲";
-    } else {
-        document.getElementById("explanation" + idName).hidden = true;
-        document.getElementById("right" + idName).innerHTML = "▼";
-    }
+function resetAll() {
+    document.getElementById("introPresentation").hidden = true;
+    document.getElementById("introCompetences").hidden = true;
+    document.getElementById("introHobbies").hidden = true;
+}
+
+function loadAboutMe() {
+    resetAll();
+    document.getElementById("introPresentation").hidden = false;
+}
+
+function loadCompetences() {
+    resetAll();
+    document.getElementById("introCompetences").hidden = false;
+}
+
+function loadHobbies() {
+    resetAll();
+    document.getElementById("introHobbies").hidden = false;
 }

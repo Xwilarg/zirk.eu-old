@@ -4,8 +4,16 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+#intro button {
+    background-color: #333;
+    color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #222;
+    padding: 10px;
+    font-size: 18px;
+}
+
 #intro {
-    text-align: center;
     display: block;
     margin-top: 50px;
     margin-bottom: 75px;
@@ -17,6 +25,7 @@ html {
     border-radius: 10px;
     border: 1px solid #222;
     line-height: 22px;
+    text-align: center;
 }
 
 #introGithub {
