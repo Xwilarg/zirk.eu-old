@@ -1,3 +1,9 @@
+html {
+    background-color: #333;
+    color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
 #intro {
     text-align: center;
     display: block;
@@ -5,11 +11,11 @@
     margin-bottom: 75px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #c0c0c0;
+    background-color: #444;
     width: 60%;
     padding: 25px;
     border-radius: 10px;
-    border: 1px solid #b3b3b3;
+    border: 1px solid #222;
     line-height: 22px;
 }
 
@@ -24,7 +30,7 @@ bold {
 }
 
 .category {
-    background-color: #ababab;
+    background-color: #333;
     padding: 5px;
     border-radius: 25px;
 }
@@ -113,14 +119,14 @@ th, td {
 }
 
 th {
-    background-color: #444;
+    background-color: #555;
     color: white;
 }
 
 tr:nth-child(odd) {
-    background-color: #EEE;
+    background-color: #333;
 }
 
 tr:nth-child(even) {
-    background-color: #DDD;
+    background-color: #444;
 }
