@@ -81,9 +81,10 @@ a {
 }
 
 #slideTitle {
-    text-align: center;
     color: #ccc;
+    position: absolute;
     z-index: 2;
+    margin-left: 250px;
 }
 
 #slideDescriptionContainer {
