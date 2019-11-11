@@ -1,5 +1,5 @@
 html {
-    background-color: #333;
+    background-color: rgb(24, 26, 27);
     color: #ccc;
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,6 +12,7 @@ html {
     padding: 10px;
     font-size: 18px;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 #intro {
@@ -27,6 +28,7 @@ html {
     border: 1px solid #222;
     line-height: 22px;
     text-align: center;
+    border: solid #666 1px;
 }
 
 #introGithub {
@@ -55,7 +57,7 @@ a {
 
 #slideshow {
     width: 100px;
-    border: solid black 1px;
+    border: solid #666 1px;
     display: block;
     margin-left: auto;
     margin-right: auto;
