@@ -37,6 +37,13 @@ html {
     margin-left: 5px;
 }
 
+.github {
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 5px;
+    filter: invert(100%);
+}
+
 bold {
     font-weight: bold;
 }
@@ -93,7 +100,6 @@ a {
 #popularProjects table {
     width: 90%;
     margin-left: 5%;
-    cursor: pointer;
 }
 
 .projectImage {
