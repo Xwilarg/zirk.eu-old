@@ -19,6 +19,20 @@ img {
     height: 384px;
 }
 
+#dungeonMaster {
+    background:url(../img/GameJam-DungeonMaster.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dungeonMaster:hover {
+    background:url(../img/GameJam-DungeonMaster.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #larryTheSheepsMuseumInvasion {
     background:url(../img/GameJam-LarryTheSheepsMuseumInvasion.png);
     background-position: left;
