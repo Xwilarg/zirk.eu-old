@@ -20,8 +20,8 @@ img {
 }
 
 #dungeonMaster {
-    background:url(../img/GameJam-DungeonMaster.png);
-    background-position: left;
+    background:url(../img/GameJam-DungeonMaster.jpg);
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
