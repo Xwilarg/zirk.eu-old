@@ -7,7 +7,7 @@ function setFullscreen() {
 const url = new URL(window.location.href);
 switch (url.searchParams.get("jamName")) {
     case "dungeonMaster":
-        $.getScript('../Unity/TemplateData/UnityLoader.js', function()
+        $.getScript('../Unity/TemplateData/UnityLoader2019.js', function()
         {
             gameInstance = UnityLoader.instantiate("gameContainer", "../Unity/DungeonMaster/DungeonMaster.json", {onProgress: UnityProgress});
         });
