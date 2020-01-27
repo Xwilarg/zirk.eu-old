@@ -1,260 +1,30 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121641017-1"></script><script src="js/googleAnalytics.js"></script>
     <head>
         <title>Zirk</title>
         <meta property="og:title" content="Zirk"/>
         <meta property="og:description" content="Software Developer"/>
-		<link async rel="stylesheet" type="text/css" href="css/index.css">
         <link async rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
-        <script src="js/index.js"></script>
+		<link rel="stylesheet" href="css/index.css" />
     </head>
     <body>
-        <div id="intro">
-            <h2>Zirk <a id="introGithub" href="https://github.com/Xwilarg/" target="_blank"><img src="img/GitHub.png" /></a></h2>
-            <h3>Software developer</h3>
-            <hr/><br/>
-            <div>
-                <span id="introPresentation">
-                    <h4>About me</h4>
+        <header id="header" class="alt">
+            <span id="blur">
+                <div class="inner">
+                    <h1>Zirk</h1>
+                    <p>Software Developer</a></p>
+                </div>
+            </span>
+        </header>
+        <div id="wrapper">
+            <section id="intro" class="main">
+                <h2>About Me</h2>
+                <p>
                     I'm a 4th year student at the french school <a href="https://international.epitech.eu/">EPITECH</a>.<br/>
-                    Currently at the <a href="http://www.kmu.ac.kr/uni/eng/main.jsp">Keimyung University</a> (Daigu, South Korea) as a part of my studies.<br/><br/>
-                    Mainly specialized in software/video game development, I also do some web sometimes.<br/><br/>
-                    If you want to learn more about me, you can click the on buttons right below.
-                </span>
-                <span id="introCompetences" hidden>
-                    <h4>Professional Competencies</h4>
-                    <bold>Programming Languages:</bold>
-                    <span class="category">C#</span>
-                    <span class="category">Javascript</span>
-                    <span class="category">C++</span>
-                    <span class="category">Python</span>
-                    <span class="category">PHP</span>
-                    <span class="category">C</span>
-                    <span class="category">Golang</span>
-                    <br/><br/>
-                    <bold>Engines/Libraries:</bold>
-                    <span class="category">Unity 3D</span>
-                    <span class="category">Unreal Engine 4</span>
-                    <span class="category">Qt</span>
-                    <span class="category">SFML</span>
-                    <br/><br/>
-                    <bold>Others:</bold>
-                    <span class="category">Git</span>
-                    <span class="category">GitHub</span>
-                    <span class="category">RethinkDb</span>
-                    <br/><br/>
-                    <bold>Languages:</bold><br/>
-                    French: Native<br/>
-                    English: Fluent<br/>
-                    Japanese: Basics
-                </span>
-                <span id="introHobbies" hidden>
-                    <bold>Video Games:</bold> <a href="https://backpack.tf/profiles/76561198039345808">Team Fortress 2</a>, <a href="https://files.zirk.eu/zirk.eu/KanColle.png">Kantai Collection</a> and <a href="https://p.eagate.573.jp/game/sdvx/v/p/playdata/rival/profile.html&rival_id=SV-4020-6922">Sound Vortex Vivid Wave</a>.<br/>
-                    <bold>Books:</bold> <a href="https://myanimelist.net/manga/102667/Slime_Taoshite_300-nen_Shiranai_Uchi_ni_Level_Max_ni_Nattemashita">Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita</a>.<br/>
-                    <bold>Compositors:</bold> <a href="https://www.youtube.com/channel/UCGmO0S4S-AunjRdmxA6TQYg">DECO*27</a> and <a href="https://www.youtube.com/user/pinocchiopchannel">ピノキオピ</a>.
-                </span>
-                <br/><br/><hr/><br/>
-                <button onclick="loadAboutMe()">About me</button>
-                <button onclick="loadCompetences()">Professional Competencies</button>
-                <button onclick="loadHobbies()">Hobbies</button>
-                <a class="button" href="gamejam.html" target="_blank">Game Jams</a>
-            </div>
-        </div>
-        <div id="popularProjects">
-            <p id="center">
-                Popular projects I'm working on:<br/><br/>
-            </p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <p class="title">Sanara <a target="_blank" href="https://github.com/Xwilarg/Sanara"><img class="github" src="img/GitHub.png"/></a></p>
-                            <p class="descriptionContainer">
-                                A multipurpose Discord bot providing games, images and more
-                            </p>
-                            <a href="https://sanara.zirk.eu"><img class="projectImage" src="img/projects/Sanara.png"/></a>
-                            <div class="footerContainer">
-                                <img src="https://img.shields.io/endpoint?color=deepgreen&url=https%3A%2F%2Fapi.zirk.eu%2Fbots.php%3Fname%3DSanara%26shield%3Dtrue"/>
-                                <img src="https://img.shields.io/github/stars/Xwilarg/Sanara?label=GitHub%20stars&style=flat"/>
-                            </div>
-                        </td>
-                        <td>
-                            <p class="title">NHentaiDownloader <a target="_blank" href="https://github.com/Xwilarg/NHentaiDownloader"><img class="github" src="img/GitHub.png"/></a></p>
-                            <p class="descriptionContainer">
-                                A chrome extension to download doujinshi from NHentai
-                            </p>
-                            <a href="https://nhentaidownloader.zirk.eu"><img class="projectImage" src="img/projects/NHentaiDownloader.png"/></a>
-                            <div class="footerContainer">
-                                <img src="https://img.shields.io/chrome-web-store/users/dcpdhacgmnhbfaebkcagkakpcighmeol.svg?style=flat"/>
-                                <img src="https://img.shields.io/chrome-web-store/stars/dcpdhacgmnhbfaebkcagkakpcighmeol.svg?style=flat"/>
-                                <img src="https://img.shields.io/github/stars/Xwilarg/NHentaiDownloader?label=GitHub%20stars&style=flat"/>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="title">BooruSharp <a target="_blank" href="https://github.com/Xwilarg/BooruSharp"><img class="github" src="img/GitHub.png"/></a></p>
-                            <p class="descriptionContainer">
-                                A C# library to browse Booru websites (Gelbooru, Konachan, etc...) easily
-                            </p>
-                            <a href="https://github.com/Xwilarg/BooruSharp"><img class="projectImage" src="img/projects/BooruSharp.png"/></a>
-                            <div class="footerContainer">
-                                <img src="https://img.shields.io/nuget/dt/BooruSharp"/>
-                                <img src="https://img.shields.io/github/stars/Xwilarg/BooruSharp?label=GitHub%20stars&style=flat"/>
-                            </div>
-                        </td>
-                        <td onclick="projectPreview('\'projectalpha\'')">
-                            <p class="title">???</p>
-                            <p class="descriptionContainer">
-                                Coming soon...
-                            </p>
-                            <img class="projectImage" src="img/projects/ProjectAlpha.png"/>
-                            <div class="footerContainer">
-                                ...
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <br/><br/>
-        <p id="center">
-            But overall, here is the full list of projects I made
-        </p>
-        <div id="allProjects">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Type</th>
-                        <th>Language</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Atsuka">Atsuka</a></td>
-                        <td>A Discord bot that order you to apologize if you say bad things</td>
-                        <td>Discord Bot</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr class="nsfw">
-                        <td><a href="https://github.com/Xwilarg/BooruSharp">BooruSharp</a></td>
-                        <td>A C# library to browse Booru websites (Gelbooru, Konachan, etc...) easily</td>
-                        <td>Library</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/CommitMessageAnalyzer">Commit Message Analyzer</a></td>
-                        <td>A website that analyze GitHub/GitLab commit messages for a project</td>
-                        <td>Website</td>
-                        <td>PHP / JS</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/CSVCleaner">CSV Cleaner</a></td>
-                        <td>Some handy tools to clean your CSV files</td>
-                        <td>Software</td>
-                        <td>C++</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Discord-OAuth2-PHP">Discord OAuth2 PHP</a></td>
-                        <td>PHP Library for Discord OAuth2</td>
-                        <td>Library</td>
-                        <td>PHP</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/FE3H-Badge">FE3H Badge</a></td>
-                        <td>Show who you S ranked in Fire Emblem: 3 Houses</td>
-                        <td>Website</td>
-                        <td>JS</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Hista">Hista</a></td>
-                        <td>Add yourself a role on Discord by clicking on a message</td>
-                        <td>Discord Bot</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Horizon">Horizon</a></td>
-                        <td>A website to compare KanColle, Azur Lane and Warship Girls R ships</td>
-                        <td>Website</td>
-                        <td>PHP / JS</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Konawall">Konawall</a></td>
-                        <td>Set a random anime wallpaper on your computer</td>
-                        <td>Script</td>
-                        <td>Python</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Konari">Konari</a></td>
-                        <td>A Discord bot that analyse the text and images sent in channels, looking for inappropriate content</td>
-                        <td>Discord Bot</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Lania">Lania</a></td>
-                        <td>A Discord bot than open a gate allowing you to send an image to a random guild and to see the reactions they add to it</td>
-                        <td>Discord Bot</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr class="nsfw">
-                        <td><a href="https://github.com/Xwilarg/NHentaiAnalytics">NHentai Analytics</a></td>
-                        <td>A Chrome/Firefox extension to help you find the best doujinshi based on your favorites</td>
-                        <td>Chrome/Firefox Extension</td>
-                        <td>JS</td>
-                    </tr>
-                    <tr class="nsfw">
-                        <td><a href="https://github.com/Xwilarg/NHentaiDownloader">NHentai Downloader</a></td>
-                        <td>A chrome extension to download doujinshi from NHentai</td>
-                        <td>Chrome Extension</td>
-                        <td>JS</td>
-                    </tr>
-                    <tr class="nsfw">
-                        <td><a href="https://github.com/Xwilarg/NHentaiDownloader-Website">NHentai Downloader Website</a></td>
-                        <td>Website for the chrome extension NHentai Downloader</td>
-                        <td>Website</td>
-                        <td></td>
-                    </tr>
-                    <tr class="nsfw">
-                        <td><a href="https://github.com/Xwilarg/NHentaiSharp">NHentaiSharp</a></td>
-                        <td>NHentaiSharp is a C# library to use NHentai.net API</td>
-                        <td>Library</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Particles">Particles</a></td>
-                        <td>A small particle renderer made with the SFML</td>
-                        <td>Software</td>
-                        <td>C++</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Pina">Pina</a></td>
-                        <td>A Discord bot that allow anyone to pin messages in your server</td>
-                        <td>Discord Bot</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Sanara">Sanara</a></td>
-                        <td>A multipurpose Discord bot providing games, images and more</td>
-                        <td>Discord Bot</td>
-                        <td>C#</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/Sanara-Website">Sanara Website</a></td>
-                        <td>Website for the Discord bot Sanara</td>
-                        <td>Website</td>
-                        <td>JS</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://github.com/Xwilarg/zirk.eu">zirk.eu</a></td>
-                        <td>This website</td>
-                        <td>Website</td>
-                        <td>JS</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                    Currently at the <a href="http://www.kmu.ac.kr/uni/eng/main.jsp">Keimyung University</a> (Daigu, South Korea) as a part of my studies.<br/>
+                    Mainly specialized in software/video game development, I also do some web sometimes.
+                </p>
+            </section>
     </body>
 </html>
