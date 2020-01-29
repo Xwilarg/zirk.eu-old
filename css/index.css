@@ -142,6 +142,10 @@ ul.actions {
     display: block;
 }
 
+.item p {
+    font-size: 20px;
+}
+
 .item header:hover a {
     transform: scale(1.1);
 }
