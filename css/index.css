@@ -99,6 +99,12 @@ ul.actions {
     padding-left: 0;
 }
 
+ul.actions li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+    vertical-align: middle;
+}
+
 .item {
     padding: 3em 3em 1em 3em;
     background-color: #ffffff;
