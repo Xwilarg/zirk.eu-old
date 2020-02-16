@@ -6,6 +6,13 @@ function setFullscreen() {
 
 const url = new URL(window.location.href);
 switch (url.searchParams.get("jamName")) {
+    case "rrr":
+        $.getScript('../Unity/TemplateData/UnityLoader2019.js', function()
+        {
+            gameInstance = UnityLoader.instantiate("gameContainer", "../Unity/RRR/RRR.json", {onProgress: UnityProgress});
+        });
+    break;
+
     case "dungeonMaster":
         $.getScript('../Unity/TemplateData/UnityLoader2019.js', function()
         {

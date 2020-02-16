@@ -1,6 +1,7 @@
 document.getElementById("menu").innerHTML =
 '<div id="sidenav">\
     <a href="https://zirk.eu/gamejam.html">Go Back</a>\
+    <a href="https://zirk.eu/Unity/index?jamName=rrr">R.R.R. (Remove Reuse Repair)</a>\
     <a href="https://zirk.eu/Unity/index?jamName=dungeonMaster">Dungeon Master</a>\
     <a href="https://zirk.eu/Unity/index?jamName=larryTheSheepsMuseumInvasion">Larry: The Sheep\'s Museum Invasion</a>\
     <a href="https://zirk.eu/Unity/index?jamName=kibouNoImouto">希望の妹</a>\
