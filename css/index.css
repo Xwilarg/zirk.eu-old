@@ -85,9 +85,7 @@ hr {
     text-transform: uppercase;
     letter-spacing: 0.325em;
     font-size: 0.725em;
-}
-
-.button {
+    margin-top: 10px;
     background-color: transparent;
     box-shadow: inset 0 0 0 2px #666666;
     color: #444444 !important;
