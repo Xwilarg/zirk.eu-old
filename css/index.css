@@ -207,6 +207,10 @@ ul.actions li {
     cursor: default;
 }
 
+header img {
+    max-width: 100%;
+}
+
 #header h1, #header h2, #header h3{
     color: #ffffff;
 }
