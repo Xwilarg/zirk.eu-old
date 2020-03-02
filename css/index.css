@@ -55,20 +55,20 @@ a {
     border-bottom: dotted 1px;
 }
 
-a:hover {
+a:hover, button:hover {
     color: #EF6480 !important;
     border-bottom-color: transparent;
 }
 
 h1, h2, h3 {
-    color: #444444;
+    color: #444;
 }
 
 hr {
-    border-bottom-color: #666666;
+    border-bottom-color: #666;
 }
 
-.button {
+.button, button {
     appearance: none;
     transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     border-radius: 4px;
@@ -87,7 +87,7 @@ hr {
     font-size: 0.725em;
     margin-top: 10px;
     background-color: transparent;
-    box-shadow: inset 0 0 0 2px #666666;
+    box-shadow: inset 0 0 0 2px #666;
     color: #444444 !important;
 }
 
@@ -105,7 +105,7 @@ ul.actions li {
 
 .item {
     padding: 3em 3em 1em 3em;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 4px;
     text-align: center;
 }
@@ -126,11 +126,11 @@ ul.actions li {
 }
 
 .item header h1, .item header h2, .item header h3 {
-    color: #ffffff;
+    color: #fff;
 }
 
 .item header hr {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #fff;
 }
 
 .item header a {
@@ -212,10 +212,10 @@ header img {
 }
 
 #header h1, #header h2, #header h3{
-    color: #ffffff;
+    color: #fff;
 }
 #header hr {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #fff;
 }
 
 #header h1 {
@@ -236,7 +236,7 @@ header img {
 #header.alt h1 {
     font-size: 4em;
     padding: 0 0.5em 0.25em 0.5em;
-    border-bottom: solid 2px #ffffff;
+    border-bottom: solid 2px #fff;
     text-transform: none;
     letter-spacing: 0;
 }
@@ -251,13 +251,13 @@ header img {
 
 #main {
     padding: 4em 4em 2em 4em;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 4px;
 }
 
 #intro {
     padding: 4em 4em 2em 4em;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 4px;
     text-align: center;
 }
