@@ -26,6 +26,13 @@ img {
     background-size: cover;
 }
 
+#rrr:hover {
+    background:url(../img/GameJam-RRR.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #dungeonMaster {
     background:url(../img/GameJam-DungeonMaster.jpg);
     background-position: right;
