@@ -31,15 +31,15 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 1.75em;
-}
-
-h2 {
     font-size: 1.5em;
 }
 
-h3 {
+h2 {
     font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1em;
 }
 
 hr {
@@ -84,7 +84,7 @@ hr {
     white-space: nowrap;
     text-transform: uppercase;
     letter-spacing: 0.325em;
-    font-size: 0.725em;
+    font-size: 0.65em;
     margin-top: 10px;
     background-color: transparent;
     box-shadow: inset 0 0 0 2px #666;
@@ -147,7 +147,7 @@ ul.actions li {
 }
 
 .item p {
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .item header:hover a {
@@ -230,11 +230,10 @@ header img {
 #header.alt {
     height: 20em;
     min-height: 20em;
-    min-height: 75vh;
 }
 
 #header.alt h1 {
-    font-size: 4em;
+    font-size: 3em;
     padding: 0 0.5em 0.25em 0.5em;
     border-bottom: solid 2px #fff;
     text-transform: none;
@@ -245,7 +244,7 @@ header img {
     text-transform: uppercase;
     letter-spacing: 0.325rem;
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 0.6em;
     padding: 0 1.25em;
 }
 
@@ -260,4 +259,5 @@ header img {
     background-color: #fff;
     border-radius: 4px;
     text-align: center;
+    font-size: 1em;
 }
