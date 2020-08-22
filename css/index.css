@@ -125,12 +125,13 @@ article {
     background-color: #444;
     color: rgba(255, 255, 255, 0.75);
     float: left;
+    left: 15%;
 }
 
 .item > div {
     margin-left: 45%;
     vertical-align: middle;
-    float: right;
+    float: middle;
     position: relative;
 }
 
