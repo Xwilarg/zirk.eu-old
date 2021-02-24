@@ -172,11 +172,7 @@ article {
     width: 64em;
     margin: 0 auto;
     max-width: calc(100% - 4em);
-    padding: 4em 0 2em 0;
-}
-
-#wrapper > .main {
-    margin-bottom: 4em;
+    padding: 1em 0 2em 0;
 }
 
 #header {
@@ -217,8 +213,8 @@ header img {
 }
 
 #header.alt {
-    height: 20em;
-    min-height: 20em;
+    height: 2em;
+    min-height: 2em;
 }
 
 #header.alt h1 {
@@ -243,7 +239,7 @@ header img {
 }
 
 #intro {
-    padding: 4em 4em 2em 4em;
+    padding: 2em 4em 2em 4em;
     background-color: #fff;
     border-radius: 4px;
     text-align: center;
